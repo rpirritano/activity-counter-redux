@@ -1,7 +1,7 @@
 {
   "name": "ski-day-counter-redux",
   "version": "1.0.0",
-  "description": "A sample application for Learning Redux the basics",
+  "description": "Adding Redux to Activitey Counter",
   "main": "./dist",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
@@ -9,22 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoonTahoe/ski-day-counter-redux.git"
+    "url": "git+https://github.com/rpirritano/activity-counter-redux.git"
   },
-  "keywords": [
-    "activity",
-    "counter",
-    "ski",
-    "day",
-    "tutorial",
-    "redux"
-  ],
-  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "author": "Robert Pirritano <robertpirritano.com> (http://www.robertpirritano.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MoonTahoe/ski-day-counter-redux/issues"
-  },
-  "homepage": "https://github.com/MoonTahoe/ski-day-counter-redux#readme",
+  "bugs": {},
   "dependencies": {
     "cors": "^2.8.1",
     "express": "^4.14.0",
@@ -33,6 +22,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-icons": "^2.2.1",
+    "react-redux": "^5.0.7",
     "react-router": "^2.8.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0"
